@@ -45,3 +45,15 @@
 
 ---
 
+
+![Build](images/build.webp)
+![Deploy](images/deploy.webp)
+![Dockerize](images/dockerize.webp)
+![Gitea](images/gitea.webp)
+![K3s](images/k3s.webp)
+![PostgreSQL](images/postgresql.webp)
+![Registry](images/registry.webp)
+![Scale](images/scale.webp)
+![Service](images/service.webp)
+![SpringBoot](images/springboot.webp)
+![VSCode](images/vscode.webp)
