@@ -14,7 +14,7 @@
 | **REPO** | **Gitea** | **GitLab / GitHub (내부 코드 저장소)** <br> 외부 의존성 없이 기기 내에서 소스 코드를 직접 관리 및 보관 |
 | **CI/CD** | **ArgoCD** | **AWS Pod Auto-Scaling / CI·CD** <br> 코드 변경 시 시스템이 스스로 감지하여 서비스를 자동 배포/확장 |
 | **FLATFORM** | **K3s** | **Kubernetes / Docker (표준 컨테이너 엔진)** <br> 다수의 서비스를 유기적으로 관리하는 기업 표준 경량화 엔진 |
-| **MONITOR** | **Grafana** | **Datadog / 시스템 통합 대시보드** <br> 서버 부하, 온도, 서비스 가용성을 실시간으로 시각화 및 모니터링 |
+| **MONITOR** | **Prometheus** | **Jennifer, Grafana, Datadog / 시스템 통합 대시보드** <br> 서버 부하, 온도, 서비스 가용성을 실시간으로 시각화 및 모니터링 |
 
 ---
 
