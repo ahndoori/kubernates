@@ -8,15 +8,22 @@
 
 ---
 
-#### 🏗️ 엔터프라이즈 기술 매핑
-*모바일 환경에 맞춰 기업급 솔루션을 최적화하여 구성했습니다.*
+#### 💡 작동 시나리오
+- [ ] VSCODE, GITEA - 소스 코드 수정 커밋/푸시
+- [ ] GITEA-ACTION - 빌드
+- [ ] KANIKO, GITEA - 패키징, 도커라이징 후 패키지 저장소에 저장
+- [ ] ARGOCD - 패키지 변화 감지, 배포, 스케일링
 
+
+#### 🏗️ 엔터프라이즈 기술 매핑
 | 분류 | 적용 기술 | 기업용 솔루션 대응 |
 | :--- | :--- | :--- |
-| **Code** | **Gitea** | **GitLab / GitHub** |
-| **CD** | **ArgoCD** | **AWS Auto-Scaling** |
-| **K8s** | **K3s** | **Kubernetes (EKS)** |
-| **Metrics** | **Prometheus** | **CloudWatch / 모니터링** |
+| **KUBERNETES** | **K3s** | **Kubernetes, EKS** |
+| **REPO** | **Gitea** | **GIT, SVN, GitLab, GitHub** |
+| **BUILD** | **Gitea-Action** | **Jenkins, CodePipeline** |
+| **PACKAGING** | **Kaniko** | **Docker, CodeBuild** |
+| **CONATAINER** | **Gitea** | **DockerHub, ECR** |
+| **DEPLOY** | **ArgoCD** | **Kubernetes, Docker** |
 
 <br>
 
@@ -46,8 +53,3 @@
 
 ---
 
-#### 💡 면접 시 시연 가능 (In-Person Demo)
-면접 시 기기를 지참하여 아래 내용을 **1분 내 시연** 가능합니다.
-- [ ] 소스 코드 수정 후 **Gitea** 푸시
-- [ ] **ArgoCD**의 자동 변경 감지 및 서비스 반영
-- [ ] **Prometheus**를 통한 실시간 시스템 메트릭 확인
