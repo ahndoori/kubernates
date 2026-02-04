@@ -11,6 +11,43 @@
 
 ---
 
+K3s - 쿠버네티스 파드 정보
+![K3s](images/k3s.webp)
+
+PostgreSql, DBeaver - 데이터베이스
+![PostgreSQL](images/postgresql.webp)
+
+VSCode, SpringBoot - 프로젝트 소스
+![VSCode](images/vscode.webp)
+
+Gitea - 소스코드 저장소
+![Gitea](images/gitea.webp)
+
+GiteaAction - 소스코드 빌드
+![Build](images/build.webp)
+
+GiteaAction, Kaniko - 도커라이징, 컨테이너 등록
+![Dockerize](images/dockerize.webp)
+
+Gitea - 컨테이너 레지스트리
+![Registry](images/registry.webp)
+
+ArgoCD - 최신 컨테이너로 파드 생성
+![Deploy](images/deploy.webp)
+
+ArgoCD - 스프링부트 파드 스타트
+![SpringBoot](images/springboot.webp)
+
+ArgoCD - 3개의 파드로 스케일링
+![Scale](images/scale.webp)
+
+Chrome - 스프링부트 프로젝트 접속
+![Service](images/service.webp)
+
+
+
+
+
 #### 🌐 적용 소프트웨어
 * **SpringBoot (Framework):** 자바 기반의 표준 웹 애플리케이션 프레임워크입니다. 빠른 개발 속도와 높은 확장성을 바탕으로 실제 비즈니스 로직을 구동합니다.
 * **PostgreSQL (Database):** 엔터프라이즈급 오픈소스 RDBMS입니다. 강력한 데이터 무결성을 제공하며 서비스의 모든 데이터를 안전하게 관리합니다.
@@ -45,15 +82,3 @@
 
 ---
 
-
-![Build](images/build.webp)
-![Deploy](images/deploy.webp)
-![Dockerize](images/dockerize.webp)
-![Gitea](images/gitea.webp)
-![K3s](images/k3s.webp)
-![PostgreSQL](images/postgresql.webp)
-![Registry](images/registry.webp)
-![Scale](images/scale.webp)
-![Service](images/service.webp)
-![SpringBoot](images/springboot.webp)
-![VSCode](images/vscode.webp)
