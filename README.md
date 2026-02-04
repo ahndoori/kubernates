@@ -1,5 +1,5 @@
-### 📱 DEV-TO-SERVICE, PORTABLE KUBERNETES INFRASTRUCTURE
-**쿠버네티스 클라우드 인프라 구축**<br>
+### DEV-TO-SERVICE, PORTABLE KUBERNETES INFRASTRUCTURE
+**🚀 쿠버네티스 클라우드 인프라 구축**<br>
 본 포트폴리오는 일반PC에 쿠버네티스 인프라를<br>
 운용하는 프로젝트 입니다.<br>
 스팀덱은 기본운영체제가 리눅스 기반이라,<br>
