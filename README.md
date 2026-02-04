@@ -1,8 +1,5 @@
-### 📱 PORTABLE KUBERNETES INFRASTRUCTURE<br>
-DEV-TO-SERVICE PROJECT
-
+### 📱 DEV-TO-SERVICE, PORTABLE KUBERNETES INFRASTRUCTURE
 > **"클라우드 네이티브 환경 구축"**
-<br>
 본 포트폴리오는 일반PC에 쿠버네티스 인프라를<br>
 구축하는 프로젝트 입니다.<br>
 스팀덱은 기본운영체제가 리눅스 기반이라,<br>
@@ -25,12 +22,12 @@ DEV-TO-SERVICE PROJECT
 #### 🏗️ 엔터프라이즈 기술 매핑
 | 분류 | 적용 기술 | 기업용 솔루션 대응 |
 | :-- | :-- | :--- |
-| **KUBERNETES** | **K3s** | **Kubernetes, EKS** |
-| **REPO** | **Gitea** | **GIT, SVN, GitLab, GitHub** |
-| **BUILD** | **Gitea-Action** | **Jenkins, CodePipeline** |
-| **PACKAGING** | **Kaniko** | **Docker, CodeBuild** |
-| **CONATAINER** | **Gitea** | **DockerHub, ECR** |
-| **DEPLOY** | **ArgoCD** | **Flux, Kubernetes, Docker** |
+| **Kubenetes** | **K3s** | **Kubernetes, EKS** |
+| **Repository** | **Gitea** | **GIT, SVN, GitLab, GitHub** |
+| **Build** | **Gitea-Action** | **Jenkins, CodePipeline** |
+| **Packaging** | **Kaniko** | **Docker, CodeBuild** |
+| **Container** | **Gitea** | **DockerHub, ECR** |
+| **Deploy** | **ArgoCD** | **Flux, Kubernetes, Docker** |
 
 #### 💡 작동 시나리오
 - [ ] 소스 코드 수정 커밋/푸시 - VSCode, Gitea
@@ -38,7 +35,7 @@ DEV-TO-SERVICE PROJECT
 - [ ] 패키징, 도커라이징 후 패키지 저장소에 저장 - Kaniko, Gitea
 - [ ] 패키지 변화 감지, 배포, 스케일링 - ArgoCD
 
-#### 💻 기업용 서버 vs Steam Deck 상세 스펙
+#### 💻 기업용 서버 vs 스팀덱 스펙
 | 항목 | 일반 기업용 서버 (최소) | Steam Deck (본 환경) |
 | :--- | :--- | :--- |
 | **CPU** | Multiple Xeon / EPYC 코어 | **AMD Zen 2 (4Core/8Thread)** |
